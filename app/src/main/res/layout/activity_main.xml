@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        android:background="@color/colorPrimaryDark"
+        app:title="">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+            >
+
+
+        <com.libizo.CustomEditText
+
+            android:id="@+id/editTextWebsite"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="www.website-name.com"
+            android:imeOptions="actionSend"
+            android:inputType="textWebEditText"
+            android:padding="10dp"
+            app:libIZO_clearIconTint="#d4d2d3"
+            app:libIZO_setBorderColor="#d4d2d3"
+            app:libIZO_setBorderView="true"
+            app:libIZO_setClearIconVisible="true"
+            app:libIZO_setCornerRadius="3dp"
+            app:libIZO_setPrefix=""
+            android:layout_weight="0.65"
+            app:libIZO_setPrefixTextColor="@color/colorAccent"
+            app:libIZO_setStrokeWidth="1dp" />
+
+            <Button
+                android:id="@+id/btnFetchWebsite"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.1"
+                android:onClick="Fetch_URLData"
+                style="null"
+                android:text="Go" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+</FrameLayout>
+</LinearLayout>

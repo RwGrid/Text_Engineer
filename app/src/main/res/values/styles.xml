@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#C2185B</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+    <style name="EditTextMine">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/textColorSecondary
+        </item>   <!--hayde lal hint abel ma ektob  -->
+        <item name="android:textSize">14dp</item>
+
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#fff</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="colorControlActivated">@color/greeen1
+        </item> <!--hayde lal hint  baad ma ektob w lon el text-->
+    </style>
+
+</resources>

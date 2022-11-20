@@ -1,0 +1,2 @@
+rootProject.name='My ML App'
+include ':app'

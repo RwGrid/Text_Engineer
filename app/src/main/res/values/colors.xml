@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="greeen1">#44b473</color>
+
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+
+    <color name="colorSlide_1">#8BC3</color>
+    <color name="colorSlide_2">#8BC3</color>
+    <color name="colorSlide_3">#8BC3</color>
+    <color name="colorSlide_4">#3F15B5</color>
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878B</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="red">#f44336</color>
+    <color name="tfe_color_primary">#ffa800</color>
+    <color name="tfe_color_primary_dark">#ff6f00</color>
+    <color name="tfe_color_accent">#425066</color>
+
+    <color name="tfe_qa_color_highlight">#eeff41</color>
+</resources>
